@@ -5,14 +5,12 @@ En este curso, en lugar de utilizar un entorno de desarrollo como XAMPP, vamos a
 
 El objetivo es configurar dos contenedores: uno para **PHP y Apache**, y otro para **MySQL**, y además asegurarnos de que los cambios realizados en la base de datos sean **persistentes en el disco duro**.
 
-### Requisitos Previos
-
-1. Tener Docker instalado en tu sistema. Si aún no lo tienes:
+### Instalación
    - [Descargar Docker para Windows](https://www.docker.com/products/docker-desktop)
    - [Descargar Docker para macOS](https://www.docker.com/products/docker-desktop)
    - Para Linux, instala Docker a través del gestor de paquetes de tu distribución ([Guía oficial](https://docs.docker.com/engine/install/)).
 
-2. Familiaridad básica con PHP, Apache y MySQL.
+###
 
 ### Pasos para Configurar el Entorno con Docker
 
