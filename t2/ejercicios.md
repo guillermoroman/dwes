@@ -35,15 +35,25 @@ Escribe un programa en PHP que determine si una persona es mayor de edad según 
 Escribe un programa en PHP que tome tres números y determine cuál es el mayor de ellos.
 **Requisitos:**
 - Declara tres variables con números diferentes.
-- Usa condicionales para comparar los tres números.
+- Usa **condicionales** para comparar los tres números.
 - Imprime cuál es el mayor.
 
 ### Ejercicio 4
-Escribe un programa en PHP que realice una operación aritmética (suma, resta, multiplicación, o división) dependiendo de un operador dado.
+Escribe un programa en PHP que realice una operación aritmética (suma, resta, multiplicación o división) entre dos números, dependiendo de un operador dado. Usa la estructura switch para gestionar las diferentes operaciones.
 **Requisitos:**
-- Declara dos números y un operador (por ejemplo, `+`, `-`, `*`, `/`).
-- Usa una estructura condicional para realizar la operación correcta.
-- Usa el operador ternario para manejar una operación por defecto (por ejemplo, suma).
+- Declara dos variables con los números que se van a operar.
+- Declara una variable con el operador (puede ser +, -, *, /).
+- Usa la estructura switch para evaluar el operador y realizar la operación correspondiente.
+- Imprime el resultado de la operación.
+- Si el operador no es válido, imprime un mensaje de error.
+
+### Ejercicio 5
+Escribe un programa en PHP que determine si un número es par o impar utilizando el operador ternario.
+**Requisitos:**
+- Declara una variable con un número entero.
+- Usa el operador ternario para verificar si el número es divisible entre 2 (par) o no (impar).
+- Imprime un mensaje indicando si el número es par o impar.
+
 
 ## Ejercicios avanzados con funciones
 
