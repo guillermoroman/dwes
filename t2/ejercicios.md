@@ -43,7 +43,7 @@ Escribe un programa en PHP que realice una operación aritmética (suma, resta, 
 **Requisitos:**
 - Declara dos variables con los números que se van a operar.
 - Declara una variable con el operador (puede ser +, -, *, /).
-- Usa la estructura switch para evaluar el operador y realizar la operación correspondiente.
+- Usa la estructura **switch** para evaluar el operador y realizar la operación correspondiente.
 - Imprime el resultado de la operación.
 - Si el operador no es válido, imprime un mensaje de error.
 
@@ -51,7 +51,7 @@ Escribe un programa en PHP que realice una operación aritmética (suma, resta, 
 Escribe un programa en PHP que determine si un número es par o impar utilizando el operador ternario.
 **Requisitos:**
 - Declara una variable con un número entero.
-- Usa el operador ternario para verificar si el número es divisible entre 2 (par) o no (impar).
+- Usa el **operador ternario** para verificar si el número es divisible entre 2 (par) o no (impar).
 - Imprime un mensaje indicando si el número es par o impar.
 
 
