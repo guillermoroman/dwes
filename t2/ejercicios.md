@@ -1,11 +1,58 @@
 # Ejercicios Tema 1
 
+## Ejercicios sencillos con bucles
+
+### Ejercicio 1
+Suma todos los elementos de un array utilizando la estructura `while(){}`.
+
+### Ejercicio 2
+Concatena todos los elementos de un array utilizando la estructura `do{}while(){`.
+
+### Ejercicio 3
+Multiplica todos los elementos de un array utilizando la estructura `for(){}`.
+
+### Ejercicio 4
+Imprime en una lista numerada todos los elementos de un array utilizando la estructura `foreach(){}`.
+
+
+## Ejercicios sencillos con estructuras condicionales
+
+### Ejercicio 1
+Escribe un programa en PHP que verifique si un número dado es positivo, negativo o cero, usando condicionales `if`, `else`, y `elseif`.
+**Requisitos:**
+- Declara una variable con un número.
+- Usa una estructura condicional para verificar si el número es positivo, negativo o igual a cero.
+- Imprime un mensaje adecuado para cada caso.
+
+### Ejercicio 2
+Escribe un programa en PHP que determine si una persona es mayor de edad según su edad.
+**Requisitos:**
+- Declara una variable con la edad de la persona.
+- Si la edad es mayor o igual a 18, imprime "Eres mayor de edad".
+- Si la edad es menor a 18, imprime "Eres menor de edad".
+
+### Ejercicio 3
+Escribe un programa en PHP que tome tres números y determine cuál es el mayor de ellos.
+**Requisitos:**
+- Declara tres variables con números diferentes.
+- Usa condicionales para comparar los tres números.
+- Imprime cuál es el mayor.
+
+### Ejercicio 4
+Escribe un programa en PHP que realice una operación aritmética (suma, resta, multiplicación, o división) dependiendo de un operador dado.
+**Requisitos:**
+- Declara dos números y un operador (por ejemplo, `+`, `-`, `*`, `/`).
+- Usa una estructura condicional para realizar la operación correcta.
+- Usa el operador ternario para manejar una operación por defecto (por ejemplo, suma).
+
+## Ejercicios avanzados con funciones
+
 ### Ejercicio 1
 Escribe una función que calcule el factorial de un número (positivo), que acepte un número como argumento. No hace falta crear una interfaz para introducir el número; lo podemos introducir manualmente en el código en esta ocasión.
 
 ### Ejercicio 2
 Escribe una función pra comprobar si un número es primo o no.
-[Note] Un número es primo si es natura, mayor que 1 y no tiene divisores positivos además de 1 y el mismo número.
+[!Note] Un número es primo si es natura, mayor que 1 y no tiene divisores positivos además de 1 y el mismo número.
 
 ### Ejercicio 3
 Escribe una función que de la vuelta a una cadena de texto.
