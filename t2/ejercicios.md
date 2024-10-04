@@ -6,7 +6,7 @@
 Suma todos los elementos de un array utilizando la estructura `while(){}`.
 
 ### Ejercicio 2
-Concatena todos los elementos de un array utilizando la estructura `do{}while(){`.
+Concatena todos los elementos de un array utilizando la estructura `do{}while()`.
 
 ### Ejercicio 3
 Multiplica todos los elementos de un array utilizando la estructura `for(){}`.
