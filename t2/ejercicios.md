@@ -69,7 +69,7 @@ Escribe una función `comprobarPrimo`para comprobar si un número es primo o no.
 Escribe una función `darVuelta` que de la vuelta a una cadena de texto. Debe devolver una cadena.
 
 ### Ejercicio 4
-Escribe una función `ordenarArray` que ordene un array de enteros. Se pasa el array por referencia.
+Escribe una función `ordenarArray` que ordene un array de enteros. Se pasa el array por referencia. Se recomienda utilizar el método de la burbuja que consiste en recorrer el array y, en cada pasada, comparar e intercambiar (si procede) elementos del array. 
 
 ### Ejercicio 5
 Escribe una función `comprobarMinusculas´ que compruebe que un string está completamente en minúsculas. Ha de devolver un valor booleano.
@@ -80,30 +80,3 @@ Escribe una función `esPalindromo` en PHP que comrpueba si una cadena es un pal
 > Un palíndromo es una palabra, frase o secuencia que se lee igual en las dos direcciones, por ejemplo: `madam`, o `nurses run`.
 > 
 
-
-```php
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-<?php
-$numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-$producto = 1;
-for($i = 0; $i < count($numeros); $i++) {
-    $producto *= $numeros[$i];
-}
-
-echo "Producto = $producto";
-?>
-
-</body>
-</html>
-
-```
