@@ -1,4 +1,4 @@
-# Ejercicios Tema 1
+# Ejercicios Tema 2
 
 ### [Soluciones](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones)
 
