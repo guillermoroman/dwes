@@ -1,5 +1,7 @@
 # Ejercicios Tema 1
 
+### [Soluciones](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones)
+
 ## Ejercicios sencillos con bucles
 
 ### Ejercicio 1
