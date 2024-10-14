@@ -124,12 +124,13 @@ Tendrá los siguientes valores por defecto:
 - `numRuedas` = 2
 
 Sumará los métodos
-- `hacerCaballito` que devolverá de forma aleatoria la cadena "¡Guau!" o la cadena "¡Ouch!".
+- `hacerCaballito` que devolverá de forma aleatoria la cadena _"¡Guau!"_ o la cadena _"¡Ouch!"_.
 - 
 Modificará los métodos:
 - `tocarClaxon` que devuelve la cadena _"¡Bing, bing!"_.
 
 
+#### `index.php`
+Deberá crear tres variables: `$vehiculo`, `$coche` y `$moto`.
 
-La clase hija `Coche` deberá tener además la propiedad
 
