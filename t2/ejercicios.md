@@ -134,3 +134,29 @@ Modificará los métodos:
 Deberá crear tres variables: `$vehiculo`, `$coche` y `$moto`.
 
 
+Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y prueba todas las propiedades y métodos definidos en la clase madre Vehiculo y las clases hijas.
+
+Requisitos:
+
+	1.	Instanciación de objetos:
+	•	Crea un objeto de la clase Coche con los siguientes valores:
+	•	color = “rojo”
+	•	vMax = 180
+	•	capacidadTotalMaletero = 500 litros
+	•	numPuertas = 4
+	•	Crea un objeto de la clase Moto con los siguientes valores:
+	•	color = “negro”
+	•	vMax = 120
+	2.	Probar las propiedades:
+	•	Muestra por pantalla el número de ruedas de cada vehículo utilizando los getters.
+	•	Muestra por pantalla el color y la velocidad máxima de cada vehículo utilizando los getters.
+	3.	Probar los métodos de Vehiculo:
+	•	Usa el método acelerar de ambos vehículos para incrementar la velocidad y muestra la velocidad resultante.
+	•	Usa el método frenar para reducir la velocidad y muestra la velocidad resultante.
+	•	Usa el método tocarClaxon de cada vehículo y muestra el sonido que hacen.
+	4.	Probar los métodos específicos de Coche:
+	•	Usa el método meterEnMaletero para introducir 300 litros de equipaje en el maletero del coche.
+	•	Muestra por pantalla la capacidad restante del maletero.
+	•	Vacía el maletero usando el método vaciarMaletero y muestra la capacidad restante del maletero.
+	5.	Probar los métodos específicos de Moto:
+	•	Usa el método hacerCaballito varias veces y muestra el resultado de cada intento por pantalla.
