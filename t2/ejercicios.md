@@ -98,8 +98,8 @@ La clase vehículo deberá tener las **propiedades**:
  -  ´vMax´que almacenará la velocidad máxima.
 
 Deberá tener los métodos:
-- `acelerar` que recibe un entero y modifica su velocidad en incrementos de 10. La velocidad nunca podrá superar la vMax.
-- `frenar` que recibe un entero y modifica su velocidad en incrementos de 10.
+- `acelerar` que recibe un entero y modifica su velocidad según el entero recibido. La velocidad nunca podrá superar la vMax.
+- `frenar` que recibe un entero y modifica su velocidad según el entero recibido.
 - `tocarClaxon` que devuelve la cadena _"¡Beep, beep!"_.
 - getters y setters para las propiedades.
 
