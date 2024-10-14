@@ -88,7 +88,7 @@ Escribe una función `esPalindromo` en PHP que comrpueba si una cadena es un pal
 
 Crea una clase mader `Vehiculo` de la cual heredan las clases hijas `Coche` y `Moto`.
 
-##### `Vehiculo`
+#### `Vehiculo`
 La clase vehículo deberá tener las **propiedades**:
  -  `numRuedas`
  -  `color`
@@ -103,7 +103,7 @@ Deberá tener los métodos:
 - `tocarClaxon` que devuelve la cadena _"¡Beep, beep!"_.
 - getters y setters para las propiedades.
 
-##### `Coche`
+#### `Coche`
 Tendrá los siguientes valores por defecto:
 - `numRuedas` = 4
 
@@ -119,7 +119,7 @@ Sumará los métodos
 Modificará los métodos:
 - `tocarClaxon´ que devuelve la cadena _"¡Honk, honk!"_.
 
-##### ´Moto´
+#### `Moto`
 Tendrá los siguientes valores por defecto:
 - `numRuedas` = 2
 
