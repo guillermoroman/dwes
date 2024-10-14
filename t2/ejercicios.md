@@ -103,31 +103,31 @@ Deberá tener los métodos:
 - `tocarClaxon` que devuelve la cadena _"¡Beep, beep!"_.
 - getters y setters para las propiedades.
 
-##### ´Coche´
+##### `Coche`
 Tendrá los siguientes valores por defecto:
-- ´numRuedas´ = 4
+- `numRuedas` = 4
 
 Sumará las propiedades:
-- ´capacidadTotalMaletero´ que expresaremos en litros.
-- ´capacidadRestanteMaletero´ que expresaremos en litros y debería asumir que el maletero está vacío al crear una instancia.
-- ´numPuertas´ que deberá ser un número entero menor o igual a 5.
+- `capacidadTotalMaletero` que expresaremos en litros.
+- `capacidadRestanteMaletero` que expresaremos en litros y debería asumir que el maletero está vacío al crear una instancia.
+- `numPuertas` que deberá ser un número entero menor o igual a 5.
 
 Sumará los métodos
-- ´meterEnMaletero´ que recibirá como parámetro el volumen en litros de lo que se desea introducir.
-- ´vaciarMaletero´ que dejará a 0 el atributo ´capacidadRestanteMaletero
+- `meterEnMaletero` que recibirá como parámetro el volumen en litros de lo que se desea introducir.
+- `vaciarMaletero` que dejará a 0 el atributo ´capacidadRestanteMaletero
 
 Modificará los métodos:
-- ´tocarClaxon´ que devuelve la cadena _"¡Honk, honk!"_.
+- `tocarClaxon´ que devuelve la cadena _"¡Honk, honk!"_.
 
 ##### ´Moto´
 Tendrá los siguientes valores por defecto:
-- ´numRuedas´ = 2
+- `numRuedas` = 2
 
 Sumará los métodos
 - `hacerCaballito` que devolverá de forma aleatoria la cadena "¡Guau!" o la cadena "¡Ouch!".
 - 
 Modificará los métodos:
-- ´tocarClaxon´ que devuelve la cadena _"¡Bing, bing!"_.
+- `tocarClaxon` que devuelve la cadena _"¡Bing, bing!"_.
 
 
 
