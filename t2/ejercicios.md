@@ -160,4 +160,4 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 - Usa el método hacerCaballito varias veces y muestra el resultado de cada intento por pantalla.
 
 #### Captura de pantalla de ejemplo
-
+![Captura de pantalla](resources/captura.png)
