@@ -86,7 +86,7 @@ Escribe una función `esPalindromo` en PHP que comrpueba si una cadena es un pal
 
 ### Ejercicio 1
 
-Crea una clase mader `Vehiculo` de la cual heredan las clases hijas `Coche` y `Moto`.
+Crea una clase madere `Vehiculo` de la cual heredan las clases hijas `Coche` y `Moto`.
 
 #### `Vehiculo`
 La clase vehículo deberá tener las **propiedades**:
@@ -95,7 +95,7 @@ La clase vehículo deberá tener las **propiedades**:
  -  `posX`, inicializada a 0 en el constructor.
  -  `posY`, inicializada a 0 en el constructor.
  -  `velocidad`, incializada a 0 en el constructor.
- -  ´vMax´que almacenará la velocidad máxima.
+ -  `vMax`que almacenará la velocidad máxima.
 
 Deberá tener los métodos:
 - `acelerar` que recibe un entero y modifica su velocidad según el entero recibido. La velocidad nunca podrá superar la `vMax`. En caso de que la aceleración pida subir por encima de la `vMax`, se dejará la velocidad con el valor de `vMax`, y se devolverá el mensaje "No es posible realizar la aceleración".
@@ -158,3 +158,6 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 - Vacía el maletero usando el método vaciarMaletero y muestra la capacidad restante del maletero.
 **5. Probar los métodos específicos de Moto:**
 - Usa el método hacerCaballito varias veces y muestra el resultado de cada intento por pantalla.
+
+#### Captura de pantalla de ejemplo
+
