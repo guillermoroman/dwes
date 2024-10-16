@@ -114,7 +114,7 @@ Sumará las propiedades:
 
 Sumará los métodos
 - `meterEnMaletero` que recibirá como parámetro el volumen en litros de lo que se desea introducir. Si el número de litros a introducir sobrepasa el espacio disponible, imprimirá el mensaje _"No hay espacio suficiente"_.
-- `vaciarMaletero` que dejará a 0 el atributo ´capacidadRestanteMaletero
+- `vaciarMaletero` que asignará de nuevo el valor de `capacidadTotalMaletero`a el atributo ´capacidadRestanteMaletero`.
 
 Modificará los métodos:
 - `tocarClaxon´ que devuelve la cadena _"¡Honk, honk!"_.
