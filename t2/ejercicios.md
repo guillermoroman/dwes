@@ -15,6 +15,7 @@ Multiplica todos los elementos de un array utilizando la estructura `for(){}`.
 
 ### Ejercicio 4
 Imprime en una lista numerada todos los elementos de un array utilizando la estructura `foreach(){}`.
+
 ---
 
 ## Ejercicios sencillos con estructuras condicionales
@@ -55,6 +56,7 @@ Escribe un programa en PHP que determine si un número es par o impar utilizando
 - Declara una variable con un número entero.
 - Usa el **operador ternario** para verificar si el número es divisible entre 2 (par) o no (impar).
 - Imprime un mensaje indicando si el número es par o impar.
+
 ---
 
 ## Ejercicios avanzados con funciones
@@ -80,6 +82,7 @@ Escribe una función `estaEnMinusculas´ que compruebe que un string está compl
 Escribe una función `esPalindromo` en PHP que comrpueba si una cadena es un palíndromo o no. Ha de devolver un valor booleano.
 > [!NOTE]
 > Un palíndromo es una palabra, frase o secuencia que se lee igual en las dos direcciones, por ejemplo: `madam`, o `nurses run`.
+
 ---
 
 ## Ejercicios sobre clases
@@ -92,9 +95,9 @@ Crea una clase madere `Vehiculo` de la cual heredan las clases hijas `Coche` y `
 La clase vehículo deberá tener las **propiedades**:
  -  `numRuedas`
  -  `color`
- -  `posX`, inicializada a 0 en el constructor.
- -  `posY`, inicializada a 0 en el constructor.
- -  `velocidad`, incializada a 0 en el constructor.
+ -  `posX`, inicializada a 0.
+ -  `posY`, inicializada a 0.
+ -  `velocidad`, incializada a 0.
  -  `vMax`que almacenará la velocidad máxima.
 
 Deberá tener los métodos:
