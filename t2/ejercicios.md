@@ -164,3 +164,23 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 
 #### Captura de pantalla de ejemplo
 ![Captura de pantalla](resources/captura.png)
+
+## Ejercicios con filtros
+
+### Ejercicio 1: Filtrar libros por año de lanzamiento
+Utilizando como base el código del ejemplo visto en clase, filtra los libros que fueron lanzados antes de 2015. Muestra sólo los libros cuya fecha de lanzamiento es anterior a 2015 en la lista.
+
+Indicaciones:
+	•	Utiliza array_filter para filtrar el array de $books basándote en el valor del año de lanzamiento (releaseYear).
+	•	Muestra el nombre del libro, el año de lanzamiento y el autor en la lista.
+
+### Ejercicio 2: Filtrar libros cuyo nombre contenga una palabra específica
+Modifica el código para filtrar los libros cuyo nombre contiene una palabra específica proporcionada por el usuario, por ejemplo, “The”. Muestra los libros cuyo nombre contenga esa palabra en la lista.
+
+Indicaciones:
+	•	Usa array_filter y strpos para verificar si la palabra está presente en el campo name de cada libro.
+	•	Usa una variable con el valor de la palabra a buscar (por ejemplo, $searchTerm = 'The';) y permite que esta palabra se pueda modificar fácilmente.
+	•	Asegúrate de que la búsqueda no sea sensible a mayúsculas y minúsculas.
+
+Pistas:
+	•	Usa la función stripos en lugar de strpos para que la búsqueda no sea sensible a mayúsculas.
