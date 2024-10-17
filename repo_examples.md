@@ -6,5 +6,5 @@ Sencillo ejemplo de una web con archivos html, css, javascript y png.
 ### [Ejercicio grupos](https://github.com/guillermoroman/dwes-t1-lenguajes-servidor)
 Ejercicio colaborativo para buscar información sobre distintos lenguajes para uso en servidor.
 
-
+## Tema 2
 ### [Ejercicios tema 2](https://github.com/guillermoroman/dwes/blob/main/t2/ejercicios.md)
