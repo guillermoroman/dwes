@@ -80,7 +80,6 @@ print_r($discountedProducts);
 ```
 En este ejemplo:
 
-	•	array_filter selecciona solo los productos con un precio mayor a 500.
-	•	array_map aplica un descuento del 10% a esos productos filtrados.
+- `array_filter` selecciona solo los productos con un precio mayor a 500.
+- `array_map` aplica un descuento del 10% a esos productos filtrados.
 
-omplejas sobre los datos de los arrays.
