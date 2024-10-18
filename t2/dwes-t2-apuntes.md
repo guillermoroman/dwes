@@ -20,10 +20,10 @@ $evenNumbers = array_filter($numbers, function($number) {
 
 print_r($evenNumbers); // Resultado: [2, 4, 6]
 ```
-En este ejemplo, array_filter selecciona los números pares del array $numbers.
+En este ejemplo, `array_filter` selecciona los números pares del array $numbers.
 
 ### función `array_map`
-La función array_map permite aplicar una función de transformación a cada elemento de un array. A diferencia de array_filter, no elimina elementos, sino que modifica cada uno de ellos según lo que haga la función de callback.
+La función `array_map` permite aplicar una función de transformación a cada elemento de un array. A diferencia de `array_filter`, no elimina elementos, sino que modifica cada uno de ellos según lo que haga la función de callback.
 
 Sintaxis:
 ```php
@@ -43,7 +43,7 @@ $doubledNumbers = array_map(function($number) {
 
 print_r($doubledNumbers); // Resultado: [2, 4, 6, 8, 10]
 ```
-Aquí, array_map aplica una transformación a cada número en el array multiplicándolo por 2.
+Aquí, `array_map` aplica una transformación a cada número en el array multiplicándolo por 2.
 
 Diferencias clave entre array_filter y array_map:
 
