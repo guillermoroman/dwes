@@ -29,8 +29,8 @@ Sintaxis:
 ```php
 array_map(callable $callback, array $array)
 ```
-	•	$callback: La función que se aplicará a cada elemento del array. Recibe como parámetro cada uno de los elementos del array y devuelve el valor modificado.
-	•	$array: El array sobre el que se va a aplicar la transformación.
+- `$callback`: La función que se aplicará a cada elemento del array. Recibe como parámetro cada uno de los elementos del array y devuelve el valor modificado.
+- `$array`: El array sobre el que se va a aplicar la transformación.
 
 Ejemplo:
 ```php
