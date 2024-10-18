@@ -2,10 +2,10 @@
 
 La función array_filter permite filtrar un array, seleccionando solo aquellos elementos que cumplen con una condición especificada por una función de callback. Esta función de callback se ejecuta para cada elemento del array, y si el callback devuelve true, el elemento se mantiene en el array filtrado; si devuelve false, el elemento se descarta.
 
+Sintaxis:
 ```php
 array_filter(array $array, callable $callback)
 ```
-Sintaxis:
 - `$array`: El array sobre el que se aplica el filtro.
 - `$callback`: Una función que define las condiciones del filtro. Esta función recibe cada elemento del array como argumento y debe devolver true o false.
 
