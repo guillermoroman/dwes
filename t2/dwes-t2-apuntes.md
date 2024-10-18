@@ -47,8 +47,8 @@ Aquí, array_map aplica una transformación a cada número en el array multiplic
 
 Diferencias clave entre array_filter y array_map:
 
-	•	array_filter selecciona elementos de un array basándose en una condición (manteniendo o eliminando elementos).
-	•	array_map transforma todos los elementos del array y devuelve un array con los valores modificados.
+- `array_filter` selecciona elementos de un array basándose en una condición (manteniendo o eliminando elementos).
+- `array_map` transforma todos los elementos del array y devuelve un array con los valores modificados.
 
 Ejemplo combinado de array_filter y array_map:
 
