@@ -184,3 +184,74 @@ Indicaciones:
 
 Pistas:
 - Usa la función stripos en lugar de strpos para que la búsqueda no sea sensible a mayúsculas.
+
+¡Claro! Aquí tienes dos nuevos ejercicios que ilustran filtros diferentes utilizando iteración sobre arrays en PHP, pero esta vez vamos a trabajar con otro tipo de array para hacerlo más interesante.
+
+### Ejercicio 3: Filtrar productos según el precio y aplicar descuento
+
+Vamos a trabajar con un array de productos. Cada producto tiene un nombre, un precio y una categoría. El ejercicio consiste en filtrar los productos que cuestan más de 50 unidades monetarias y, además, aplicarles un 20% de descuento. Muestra los productos filtrados con su nuevo precio.
+
+Array de ejemplo:
+```php
+$products = [
+    [
+        'name' => 'Laptop',
+        'price' => 1000,
+        'category' => 'Electronics'
+    ],
+    [
+        'name' => 'T-shirt',
+        'price' => 20,
+        'category' => 'Clothing'
+    ],
+    [
+        'name' => 'Smartphone',
+        'price' => 800,
+        'category' => 'Electronics'
+    ],
+    [
+        'name' => 'Coffee Maker',
+        'price' => 45,
+        'category' => 'Home Appliances'
+    ]
+];
+```
+Instrucciones:
+
+	1.	Usa `array_filter` para seleccionar los productos cuyo precio sea superior a 50.
+	2.	Usa `array_map` para aplicar un descuento del 20% a esos productos.
+	3.	Muestra el nombre del producto, su precio original y el precio con descuento.
+
+### Ejercicio 4: Filtrar empleados por antigüedad y departamento
+
+Ahora vamos a trabajar con un array de empleados. Cada empleado tiene un nombre, un departamento y los años que ha trabajado en la empresa. El ejercicio consiste en filtrar aquellos empleados que llevan más de 5 años en el departamento de “Ventas” y mostrarlos en una lista.
+
+Array de ejemplo:
+```php
+$employees = [
+    [
+        'name' => 'John Doe',
+        'department' => 'Sales',
+        'years' => 6
+    ],
+    [
+        'name' => 'Jane Smith',
+        'department' => 'HR',
+        'years' => 4
+    ],
+    [
+        'name' => 'Sam Johnson',
+        'department' => 'Sales',
+        'years' => 3
+    ],
+    [
+        'name' => 'Emily Davis',
+        'department' => 'Sales',
+        'years' => 8
+    ]
+];
+```
+
+Instrucciones:
+	1.	Usa `array_filter` para seleccionar empleados que trabajen en el departamento de “Ventas” y que lleven más de 5 años.
+	2.	Muestra el nombre del empleado y cuántos años lleva trabajando.
