@@ -1,13 +1,14 @@
 # Notas adicionales
 ## Indice
 - [Sintaxis alternativa para condicionales y bucles](#sintaxis_condicionaes_y_bucles)
+    - [Sintaxis alternativa para bucles](#sintaxis_bucles) 
 
 <a name="sintaxis_condicionaes_y_bucles"></a>
 ### Sintaxis alternativa para condicionales y bucles
 En PHP, además de la sintaxis estándar que utiliza llaves `{}` para delimitar bloques de código en bucles y condicionales, existe una sintaxis alternativa que se usa especialmente en entornos donde se mezcla código PHP con HTML, como dentro de plantillas. Esta sintaxis utiliza dos puntos `:` para abrir el bloque y la palabra clave correspondiente (`endif;`, `endforeach;`, `endfor;`, etc.) para cerrarlo.
 
+<a name="sintaxis_bucles"></a>
 #### Sintaxis alternativa para bucles
-
 En la sintaxis estándar, el condicional if se escribe de la siguiente manera:
 ```php
 if ($condicion) {
