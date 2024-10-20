@@ -1,14 +1,16 @@
 # Notas adicionales
 ## Indice
 - [Sintaxis alternativa para condicionales y bucles](#sintaxis_condicionaes_y_bucles)
-    - [Sintaxis alternativa para bucles](#sintaxis_bucles) 
+    - [Sintaxis alternativa para condicionales](#sintaxis_condicionales)
+    - [Sintaxis alternativa para bucles foreach](#sintaxis_bucles_foreach)
+    - [Sintaxis alternativa para otros bucles ](#sintaxis_otros_bucles)
 
 <a name="sintaxis_condicionaes_y_bucles"></a>
 ### Sintaxis alternativa para condicionales y bucles
 En PHP, además de la sintaxis estándar que utiliza llaves `{}` para delimitar bloques de código en bucles y condicionales, existe una sintaxis alternativa que se usa especialmente en entornos donde se mezcla código PHP con HTML, como dentro de plantillas. Esta sintaxis utiliza dos puntos `:` para abrir el bloque y la palabra clave correspondiente (`endif;`, `endforeach;`, `endfor;`, etc.) para cerrarlo.
 
-<a name="sintaxis_bucles"></a>
-#### Sintaxis alternativa para bucles
+<a name="sintaxis_condicionales"></a>
+#### Sintaxis alternativa para condicionales
 En la sintaxis estándar, el condicional if se escribe de la siguiente manera:
 ```php
 if ($condicion) {
@@ -40,9 +42,8 @@ Ejemplo:
 <?php endif; ?>
 ```
 
-
+<a name="sintaxis_bucles_foreach"></a>
 #### Sintaxis alternativa para bucles
-
 La sintaxis estándar para un bucle foreach es:
 ```php
 foreach ($array as $item) {
@@ -63,8 +64,8 @@ Ejemplo:
 <?php endforeach; ?>
 </ul>
 ```
+<a name="sintaxis_otros_bucles"></a>
 #### Sintaxis alternativa para otros bucles
-
 La misma idea se aplica a otros tipos de bucles como while, for, y switch.
 
 	•	while:
