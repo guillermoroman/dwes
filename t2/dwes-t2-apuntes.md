@@ -1,3 +1,128 @@
+# Notas adicionales
+## Indice
+- [Sintaxis alternativa para condicionales y bucles](#sintaxis_condicionaes_y_bucles)
+
+<a name="sintaxis_condicionaes_y_bucles"></a>
+### Sintaxis alternativa para condicionales y bucles
+En PHP, además de la sintaxis estándar que utiliza llaves `{}` para delimitar bloques de código en bucles y condicionales, existe una sintaxis alternativa que se usa especialmente en entornos donde se mezcla código PHP con HTML, como dentro de plantillas. Esta sintaxis utiliza dos puntos `:` para abrir el bloque y la palabra clave correspondiente (`endif;`, `endforeach;`, `endfor;`, etc.) para cerrarlo.
+
+#### Sintaxis alternativa para bucles
+
+En la sintaxis estándar, el condicional if se escribe de la siguiente manera:
+```php
+if ($condicion) {
+    // código
+} elseif ($otra_condicion) {
+    // código
+} else {
+    // código
+}
+```
+
+En la sintaxis alternativa, se sustituye la llave de apertura { por : y se cierran los bloques con endif; en lugar de }:
+```php
+if ($condicion):
+    // código
+elseif ($otra_condicion):
+    // código
+else:
+    // código
+endif;
+```
+
+Ejemplo:
+```php
+<?php if ($edad >= 18): ?>
+    <p>Eres mayor de edad.</p>
+<?php else: ?>
+    <p>Eres menor de edad.</p>
+<?php endif; ?>
+```
+
+
+#### Sintaxis alternativa para bucles
+
+La sintaxis estándar para un bucle foreach es:
+```php
+foreach ($array as $item) {
+    // código
+}
+```
+En la sintaxis alternativa, se utiliza endforeach; en lugar de la llave de cierre }:
+```php
+foreach ($array as $item):
+    // código
+endforeach;
+```
+Ejemplo:
+```php
+<ul>
+<?php foreach ($nombres as $nombre): ?>
+    <li><?= $nombre ?></li>
+<?php endforeach; ?>
+</ul>
+```
+#### Sintaxis alternativa para otros bucles
+
+La misma idea se aplica a otros tipos de bucles como while, for, y switch.
+
+	•	while:
+Sintaxis estándar:
+```php
+while ($condicion) {
+    // código
+}
+```
+Sintaxis alternativa:
+```php
+while ($condicion):
+    // código
+endwhile;
+```
+
+	•	for:
+Sintaxis estándar:
+```php
+for ($i = 0; $i < 10; $i++) {
+    // código
+}
+```
+Sintaxis alternativa:
+```php
+for ($i = 0; $i < 10; $i++):
+    // código
+endfor;
+```
+
+	•	switch:
+Sintaxis estándar:
+```php
+switch ($variable) {
+    case 'valor1':
+        // código
+        break;
+    case 'valor2':
+        // código
+        break;
+}
+```
+Sintaxis alternativa:
+```php
+switch ($variable):
+    case 'valor1':
+        // código
+        break;
+    case 'valor2':
+        // código
+        break;
+endswitch;
+```
+
+Ventajas de la sintaxis alternativa:
+- **Mejor legibilidad**: Cuando se utiliza en plantillas o archivos que mezclan HTML y PHP, la sintaxis alternativa puede mejorar la claridad del código, ya que los bloques de PHP se integran más naturalmente con el HTML.
+- **Evita errores con llaves**: En estructuras complejas de código, el uso de la sintaxis alternativa hace que el código sea más fácil de mantener, ya que evita perder de vista las llaves de apertura y cierre.
+
+
 ### función `array_filter`
 
 La función array_filter permite filtrar un array, seleccionando solo aquellos elementos que cumplen con una condición especificada por una función de callback. Esta función de callback se ejecuta para cada elemento del array, y si el callback devuelve true, el elemento se mantiene en el array filtrado; si devuelve false, el elemento se descarta.
