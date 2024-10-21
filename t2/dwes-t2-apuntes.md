@@ -126,7 +126,7 @@ Ventajas de la sintaxis alternativa:
 - **Mejor legibilidad**: Cuando se utiliza en plantillas o archivos que mezclan HTML y PHP, la sintaxis alternativa puede mejorar la claridad del código, ya que los bloques de PHP se integran más naturalmente con el HTML.
 - **Evita errores con llaves**: En estructuras complejas de código, el uso de la sintaxis alternativa hace que el código sea más fácil de mantener, ya que evita perder de vista las llaves de apertura y cierre.
 
-<a name="array_map"></a>
+<a name="array_filter"></a>
 ### función `array_filter`
 
 La función array_filter permite filtrar un array, seleccionando solo aquellos elementos que cumplen con una condición especificada por una función de callback. Esta función de callback se ejecuta para cada elemento del array, y si el callback devuelve true, el elemento se mantiene en el array filtrado; si devuelve false, el elemento se descarta.
