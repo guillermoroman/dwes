@@ -253,5 +253,5 @@ $employees = [
 ```
 
 Instrucciones:
-	1.	Usa `array_filter` para seleccionar empleados que trabajen en el departamento de “Ventas” y que lleven más de 5 años.
-	2.	Muestra el nombre del empleado y cuántos años lleva trabajando.
+1. Usa `array_filter` para seleccionar empleados que trabajen en el departamento de “Ventas” y que lleven más de 5 años.
+2. Muestra el nombre del empleado y cuántos años lleva trabajando.
