@@ -213,7 +213,7 @@ En este ejemplo:
 - `array_filter` selecciona solo los productos con un precio mayor a 500.
 - `array_map` aplica un descuento del 10% a esos productos filtrados.
 
-- ### función `in_array`
+### función `in_array`
 
 Verifica si un valor específico está presente en un array.
 
@@ -221,7 +221,6 @@ Verifica si un valor específico está presente en un array.
 ```php
 in_array(mixed $needle, array $haystack, bool $strict = false): bool
 ```
-
 
 **Parámetros**
 	1.	`$needle`: (aguja en español). Este es el valor que se quiere buscar en el array. Puede ser de cualquier tipo, como int, string, float, etc., o incluso un objeto.
@@ -231,7 +230,7 @@ in_array(mixed $needle, array $haystack, bool $strict = false): bool
 **Retorno**
 La función devuelve _true_ si el valor `$needle` se encuentra en el array `$haystack`, de lo contrario, devuelve _false_.
 
-**Ejemplos**
+**Ejemplo**
 ```php
 $frutas = array("manzana", "pera", "naranja");
 
