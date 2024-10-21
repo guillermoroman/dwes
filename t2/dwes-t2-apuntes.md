@@ -3,7 +3,9 @@
 - [Sintaxis alternativa para condicionales y bucles](#sintaxis_condicionaes_y_bucles)
     - [Sintaxis alternativa para condicionales](#sintaxis_condicionales)
     - [Sintaxis alternativa para bucles foreach](#sintaxis_bucles_foreach)
-    - [Sintaxis alternativa para otros bucles ](#sintaxis_otros_bucles)
+    - [Sintaxis alternativa para otros bucles](#sintaxis_otros_bucles)
+    - [array_filter](#array_filter)
+    - [array_map](#array_map)
 
 <a name="sintaxis_condicionaes_y_bucles"></a>
 ### Sintaxis alternativa para condicionales y bucles
@@ -124,7 +126,7 @@ Ventajas de la sintaxis alternativa:
 - **Mejor legibilidad**: Cuando se utiliza en plantillas o archivos que mezclan HTML y PHP, la sintaxis alternativa puede mejorar la claridad del código, ya que los bloques de PHP se integran más naturalmente con el HTML.
 - **Evita errores con llaves**: En estructuras complejas de código, el uso de la sintaxis alternativa hace que el código sea más fácil de mantener, ya que evita perder de vista las llaves de apertura y cierre.
 
-
+<a name="array_map"></a>
 ### función `array_filter`
 
 La función array_filter permite filtrar un array, seleccionando solo aquellos elementos que cumplen con una condición especificada por una función de callback. Esta función de callback se ejecuta para cada elemento del array, y si el callback devuelve true, el elemento se mantiene en el array filtrado; si devuelve false, el elemento se descarta.
@@ -149,6 +151,7 @@ print_r($evenNumbers); // Resultado: [2, 4, 6]
 ```
 En este ejemplo, `array_filter` selecciona los números pares del array $numbers.
 
+<a name="array_map"></a>
 ### función `array_map`
 La función `array_map` permite aplicar una función de transformación a cada elemento de un array. A diferencia de `array_filter`, no elimina elementos, sino que modifica cada uno de ellos según lo que haga la función de callback.
 
@@ -206,7 +209,6 @@ print_r($discountedProducts);
 // ]
 ```
 En este ejemplo:
-
 - `array_filter` selecciona solo los productos con un precio mayor a 500.
 - `array_map` aplica un descuento del 10% a esos productos filtrados.
 
