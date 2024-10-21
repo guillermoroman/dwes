@@ -68,7 +68,7 @@ Ejemplo:
 #### Sintaxis alternativa para otros bucles
 La misma idea se aplica a otros tipos de bucles como while, for, y switch.
 
-	•	while:
+while:
 Sintaxis estándar:
 ```php
 while ($condicion) {
@@ -82,7 +82,7 @@ while ($condicion):
 endwhile;
 ```
 
-	•	for:
+for:
 Sintaxis estándar:
 ```php
 for ($i = 0; $i < 10; $i++) {
@@ -96,7 +96,7 @@ for ($i = 0; $i < 10; $i++):
 endfor;
 ```
 
-	•	switch:
+switch:
 Sintaxis estándar:
 ```php
 switch ($variable) {
