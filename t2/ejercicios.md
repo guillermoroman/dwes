@@ -178,12 +178,12 @@ Indicaciones:
 Modifica el código para filtrar los libros cuyo nombre contiene una palabra específica proporcionada por el usuario, por ejemplo, “The”. Muestra los libros cuyo nombre contenga esa palabra en la lista.
 
 Indicaciones:
-- Usa array_filter y strpos para verificar si la palabra está presente en el campo name de cada libro.
+- Usa `array_filter` y strpos para verificar si la palabra está presente en el campo name de cada libro.
 - Usa una variable con el valor de la palabra a buscar (por ejemplo, $searchTerm = 'The';) y permite que esta palabra se pueda modificar fácilmente.
 - Asegúrate de que la búsqueda no sea sensible a mayúsculas y minúsculas.
 
 Pistas:
-- Usa la función stripos en lugar de strpos para que la búsqueda no sea sensible a mayúsculas.
+- Usa la función `stripos` en lugar de `strpos` para que la búsqueda no sea sensible a mayúsculas.
 
 ¡Claro! Aquí tienes dos nuevos ejercicios que ilustran filtros diferentes utilizando iteración sobre arrays en PHP, pero esta vez vamos a trabajar con otro tipo de array para hacerlo más interesante.
 
