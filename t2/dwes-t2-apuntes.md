@@ -6,6 +6,7 @@
     - [Sintaxis alternativa para otros bucles](#sintaxis_otros_bucles)
 - [array_filter](#array_filter)
 - [array_map](#array_map)
+- [in_array](#in_array)
 
 <a name="sintaxis_condicionaes_y_bucles"></a>
 ### Sintaxis alternativa para condicionales y bucles
@@ -212,3 +213,33 @@ En este ejemplo:
 - `array_filter` selecciona solo los productos con un precio mayor a 500.
 - `array_map` aplica un descuento del 10% a esos productos filtrados.
 
+- ### función `in_array`
+
+Verifica si un valor específico está presente en un array.
+
+**Sintaxis**
+```php
+in_array(mixed $needle, array $haystack, bool $strict = false): bool
+```
+
+
+**Parámetros**
+	1.	`$needle`: (aguja en español). Este es el valor que se quiere buscar en el array. Puede ser de cualquier tipo, como int, string, float, etc., o incluso un objeto.
+	2.	`$haystack`: (pajar en español). Este es el array en el que se buscará el valor $needle.
+	3.	`$strict` (opcional): Este es un parámetro booleano que, si se establece en _true_, hace que la función también compare el tipo de dato. Si se deja como false (por defecto), la comparación no tendrá en cuenta el tipo de dato, solo el valor.
+
+**Retorno**
+La función devuelve _true_ si el valor `$needle` se encuentra en el array `$haystack`, de lo contrario, devuelve _false_.
+
+**Ejemplos**
+```php
+$frutas = array("manzana", "pera", "naranja");
+
+if (in_array("pera", $frutas)) {
+    echo "¡La pera está en el array!";
+} else {
+    echo "La pera no está en el array.";
+}
+```
+Salida:
+¡La pera está en el array!
