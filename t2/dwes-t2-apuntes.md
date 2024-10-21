@@ -4,8 +4,8 @@
     - [Sintaxis alternativa para condicionales](#sintaxis_condicionales)
     - [Sintaxis alternativa para bucles foreach](#sintaxis_bucles_foreach)
     - [Sintaxis alternativa para otros bucles](#sintaxis_otros_bucles)
-    - [array_filter](#array_filter)
-    - [array_map](#array_map)
+- [array_filter](#array_filter)
+- [array_map](#array_map)
 
 <a name="sintaxis_condicionaes_y_bucles"></a>
 ### Sintaxis alternativa para condicionales y bucles
