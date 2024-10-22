@@ -193,11 +193,3 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 - Cada commit debería centrarse en un aspecto.
 - Cada commit debería dar por finalizado un aspecto y debería contener código que funciona.
 
-### Ejercicios avanzados
-
-
-
-Método que imprime por pantalla un alumno con todas sus asignaturas matriculadas.
-
-Método que imprime por pantalla todos los alumnos matriculados en una asignatura.
-
