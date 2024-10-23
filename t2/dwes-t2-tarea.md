@@ -193,3 +193,10 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 - Cada commit debería centrarse en un aspecto.
 - Cada commit debería dar por finalizado un aspecto y debería contener código que funciona.
 
+## Capturas de pantalla
+- Vista de index.php.
+![index.php](https://github.com/guillermoroman/dwes/t2/resources/index "Vista de index.php")
+
+- Vista de biblioteca.php
+
+- Vista de triangle.php
