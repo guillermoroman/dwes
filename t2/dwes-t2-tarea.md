@@ -198,8 +198,8 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 <img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Vista de index" width="450"/>
 
 - Vista de biblioteca.php
-<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Vista de biblioteca" width="450"/>
+<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/biblioteca.png" alt="Vista de biblioteca" width="450"/>
 
 - Vista de triangle.php
-<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Vista de biblioteca"/>
+<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/triangle.png" alt="Vista de biblioteca"/>
 
