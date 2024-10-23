@@ -22,7 +22,6 @@ Atributos:
 - `nombre`
 - `apellidos`
 - `email`
-- `edad`: tipo int
 
 Métodos:
 - constructor
@@ -31,6 +30,7 @@ Métodos:
 
 ### `Alumno`
 Atributos:
+- `edad`: tipo int
 - `asignaturas`: array de asignaturas
 - `cursoAbonado`: boolean.
 
