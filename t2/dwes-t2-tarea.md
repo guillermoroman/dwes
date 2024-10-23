@@ -195,7 +195,7 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 
 ## Capturas de pantalla
 - Vista de index.php.
-![index.php](https://github.com/guillermoroman/dwes/t2/resources/index "Vista de index.php")
+![index.php](https://github.com/guillermoroman/dwes/t2/resources/index.png "Vista de index.php")
 
 - Vista de biblioteca.php
 
