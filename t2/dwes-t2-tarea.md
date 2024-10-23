@@ -197,7 +197,7 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 - Vista de index.php.
 
 
-<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Mi genial imagen" width="150"/>
+<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Mi genial imagen" width="450"/>
 
 
 - Vista de biblioteca.php
