@@ -195,11 +195,10 @@ Cualquier enfoque que tenga sentido para ti como programador, puede ser válido,
 
 ## Capturas de pantalla
 - Vista de index.php.
-![index.php](https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png)
 
 
+<img src="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png" alt="Mi genial imagen" />
 
-<a href="https://github.com/guillermoroman/dwes/blob/main/t2/resources/index.png>Imagen</a>
 
 - Vista de biblioteca.php
 
