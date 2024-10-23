@@ -54,7 +54,7 @@ Atributos:
 - `creditos`
 
 Métodos:
-- `crearAsignaturasDeMuestra()` - Método estático que generará una colección de alumnos.
+- `crearAsignaturasDeMuestra()` - Método estático que generará una colección de asignaturas.
 
 ### `TriangleGenerator`
 Métodos:
