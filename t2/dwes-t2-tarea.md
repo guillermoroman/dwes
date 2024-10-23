@@ -138,8 +138,8 @@ En los métodos estáticos (`crearAlumnosDeMuestra()`, `crearAsignaturasDeMuestr
 **Profesores**:
 - 1, Steve Wozniak, steve@apple.com, DWES.
 - 2, Ada Lovelace, ada@gmail.com, DIW.
-- 3. Taylor Otwell, taylor@laravel.com, DWEC.
-- 4. Rasmus Lerdoff, rasmus@php.com, DAW.
+- 3, Taylor Otwell, taylor@laravel.com, DWEC.
+- 4, Rasmus Lerdoff, rasmus@php.com, DAW.
 
 **Alumnos**:
 - 1, Laura, Martínez, laura.martinez@email.com, 22
