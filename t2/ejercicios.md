@@ -7,13 +7,13 @@
 ### [ej-sencillo-1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-sencillo-1.php)
 Suma todos los elementos de un array utilizando la estructura `while(){}`.
 
-### [ej-sencillo-2]
+### [ej-sencillo-2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-sencillo-2.php)
 Concatena todos los elementos de un array utilizando la estructura `do{}while()`.
 
-### [ej-sencillo-3]
+### [ej-sencillo-3](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-sencillo-3.php)
 Multiplica todos los elementos de un array utilizando la estructura `for(){}`.
 
-### [ej-sencillo-4]
+### [ej-sencillo-4](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-sencillo-4.php)
 Imprime en una lista numerada todos los elementos de un array utilizando la estructura `foreach(){}`.
 
 ---
