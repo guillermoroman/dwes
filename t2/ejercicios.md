@@ -20,7 +20,7 @@ Imprime en una lista numerada todos los elementos de un array utilizando la estr
 
 ## Ejercicios sencillos con estructuras condicionales
 
-### Ejercicio 1
+### [ej-cond-1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-cond-1.php)
 Escribe un programa en PHP que verifique si un número dado es positivo, negativo o cero, usando condicionales `if`, `else`, y `elseif`.
 **Requisitos:**
 - Declara una variable con un número.
