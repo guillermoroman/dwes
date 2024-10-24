@@ -42,7 +42,7 @@ Métodos:
 
 ### `Profesor`
 Atributos:
-- `titular`: boolean
+- `titular`: boolean. No hace falta pasarlo al constructor; el constructor asignará por defecto el valor `false`.
 -  `asignatura`: 
 
 Métodos:
