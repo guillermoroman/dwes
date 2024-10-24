@@ -4,7 +4,7 @@
 
 ## Ejercicios sencillos con bucles
 
-### ej-sencillo-1
+### [ej-sencillo-1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-sencillo-1.php)
 Suma todos los elementos de un array utilizando la estructura `while(){}`.
 
 ### ej-sencillo-2
