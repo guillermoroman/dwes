@@ -174,7 +174,7 @@ Indicaciones:
 - Utiliza array_filter para filtrar el array de $books basándote en el valor del año de lanzamiento (releaseYear).
 - Muestra el nombre del libro, el año de lanzamiento y el autor en la lista.
 
-### [ej-filtros-2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-2.php)Ejercicio 2: Filtrar libros cuyo nombre contenga una palabra específica
+### [ej-filtros-2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-2.php): Filtrar libros cuyo nombre contenga una palabra específica
 Modifica el código para filtrar los libros cuyo nombre contiene una palabra específica proporcionada por el usuario, por ejemplo, “The”. Muestra los libros cuyo nombre contenga esa palabra en la lista.
 
 Indicaciones:
@@ -187,7 +187,7 @@ Pistas:
 
 ¡Claro! Aquí tienes dos nuevos ejercicios que ilustran filtros diferentes utilizando iteración sobre arrays en PHP, pero esta vez vamos a trabajar con otro tipo de array para hacerlo más interesante.
 
-### Ejercicio 3: Filtrar productos según el precio y aplicar descuento
+### [ej-filtros-3](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-3.php): Filtrar productos según el precio y aplicar descuento
 
 Vamos a trabajar con un array de productos. Cada producto tiene un nombre, un precio y una categoría. El ejercicio consiste en filtrar los productos que cuestan más de 50 unidades monetarias y, además, aplicarles un 20% de descuento. Muestra los productos filtrados con su nuevo precio.
 
@@ -222,7 +222,7 @@ Instrucciones:
 	2.	Usa `array_map` para aplicar un descuento del 20% a esos productos.
 	3.	Muestra el nombre del producto, su precio original y el precio con descuento.
 
-### Ejercicio 4: Filtrar empleados por antigüedad y departamento
+### [ej-filtros-4](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-4.php): Filtrar empleados por antigüedad y departamento
 
 Ahora vamos a trabajar con un array de empleados. Cada empleado tiene un nombre, un departamento y los años que ha trabajado en la empresa. El ejercicio consiste en filtrar aquellos empleados que llevan más de 5 años en el departamento de “Ventas” y mostrarlos en una lista.
 
