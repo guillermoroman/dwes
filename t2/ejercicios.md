@@ -163,8 +163,8 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 - Usa el método hacerCaballito varias veces y muestra el resultado de cada intento por pantalla.
 
 #### Captura de pantalla de ejemplo
-![Captura de pantalla](resources/captura.png)
 <img src="resources/captura.png" width="400" alt="Captura de pantalla">
+
 ## Ejercicios con filtros
 
 ### Ejercicio 1: Filtrar libros por año de lanzamiento
