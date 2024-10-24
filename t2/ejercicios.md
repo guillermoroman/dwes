@@ -61,18 +61,18 @@ Escribe un programa en PHP que determine si un número es par o impar utilizando
 
 ## Ejercicios avanzados con funciones
 
-### Ejercicio 1
+### [Ejercicio 1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-av-func-1.php)
 Escribe una función que calcule el factorial de un número (positivo), que acepte un número como argumento. No hace falta crear una interfaz para introducir el número; lo podemos introducir manualmente en el código en esta ocasión.
 
-### Ejercicio 2
+### [Ejercicio 2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-av-func-2.php)
 Escribe una función `esPrimo`para comprobar si un número es primo o no. Ha de devolver un valor booleano.
 > [!NOTE]
 > Un número es primo si es natural, mayor que 1 y no tiene divisores positivos además de 1 y el mismo número.
 
-### Ejercicio 3
+### [Ejercicio 3](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-av-func-3.php)
 Escribe una función `darVuelta` que de la vuelta a una cadena de texto. Debe devolver una cadena.
 
-### Ejercicio 4
+### [Ejercicio 4](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-av-func-4.php)
 Escribe una función `ordenarArray` que ordene un array de enteros. Se pasa el array por referencia. Se recomienda utilizar el método de la burbuja que consiste en recorrer el array y, en cada pasada, comparar e intercambiar (si procede) elementos del array. 
 
 ### Ejercicio 5
