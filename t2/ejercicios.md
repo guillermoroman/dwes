@@ -167,14 +167,14 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 
 ## Ejercicios con filtros
 
-### Ejercicio 1: Filtrar libros por año de lanzamiento
+### [ej-filtros-1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-1.php): Filtrar libros por año de lanzamiento
 Utilizando como base el código del ejemplo visto en clase, filtra los libros que fueron lanzados antes de 2015. Muestra sólo los libros cuya fecha de lanzamiento es anterior a 2015 en la lista.
 
 Indicaciones:
 - Utiliza array_filter para filtrar el array de $books basándote en el valor del año de lanzamiento (releaseYear).
 - Muestra el nombre del libro, el año de lanzamiento y el autor en la lista.
 
-### Ejercicio 2: Filtrar libros cuyo nombre contenga una palabra específica
+### [ej-filtros-2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-filtros-2.php)Ejercicio 2: Filtrar libros cuyo nombre contenga una palabra específica
 Modifica el código para filtrar los libros cuyo nombre contiene una palabra específica proporcionada por el usuario, por ejemplo, “The”. Muestra los libros cuyo nombre contenga esa palabra en la lista.
 
 Indicaciones:
