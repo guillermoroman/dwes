@@ -164,7 +164,7 @@ Crea un archivo index.php donde instancies objetos de las clases Coche y Moto, y
 
 #### Captura de pantalla de ejemplo
 ![Captura de pantalla](resources/captura.png)
-
+<img src="resources/captura.png" width="400" alt="Captura de pantalla">
 ## Ejercicios con filtros
 
 ### Ejercicio 1: Filtrar libros por año de lanzamiento
