@@ -87,7 +87,7 @@ Escribe una función `esPalindromo` en PHP que comrpueba si una cadena es un pal
 
 ## Ejercicios sobre clases
 
-### Ejercicio 1
+### [ej-herencia-1](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/tree/main/ejercicios/ej-herencia-1)
 
 Crea una clase madere `Vehiculo` de la cual heredan las clases hijas `Coche` y `Moto`.
 
