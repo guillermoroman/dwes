@@ -27,21 +27,21 @@ Escribe un programa en PHP que verifique si un número dado es positivo, negativ
 - Usa una estructura condicional para verificar si el número es positivo, negativo o igual a cero.
 - Imprime un mensaje adecuado para cada caso.
 
-### Ejercicio 2
+### [ej-cond-2](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-cond-2.php)
 Escribe un programa en PHP que determine si una persona es mayor de edad según su edad.
 **Requisitos:**
 - Declara una variable con la edad de la persona.
 - Si la edad es mayor o igual a 18, imprime "Eres mayor de edad".
 - Si la edad es menor a 18, imprime "Eres menor de edad".
 
-### Ejercicio 3
+### [ej-cond-3](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-cond-3.php)
 Escribe un programa en PHP que tome tres números y determine cuál es el mayor de ellos.
 **Requisitos:**
 - Declara tres variables con números diferentes.
 - Usa **condicionales** para comparar los tres números.
 - Imprime cuál es el mayor.
 
-### Ejercicio 4
+### [ej-cond-4](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-cond-4.php)
 Escribe un programa en PHP que realice una operación aritmética (suma, resta, multiplicación o división) entre dos números, dependiendo de un operador dado. Usa la estructura switch para gestionar las diferentes operaciones.
 **Requisitos:**
 - Declara dos variables con los números que se van a operar.
@@ -50,7 +50,7 @@ Escribe un programa en PHP que realice una operación aritmética (suma, resta, 
 - Imprime el resultado de la operación.
 - Si el operador no es válido, imprime un mensaje de error.
 
-### Ejercicio 5
+### [ej-cond-5](https://github.com/guillermoroman/dwes-t2-ejercicios-con-soluciones/blob/main/ejercicios/ej-cond-5.php)
 Escribe un programa en PHP que determine si un número es par o impar utilizando el operador ternario.
 **Requisitos:**
 - Declara una variable con un número entero.
