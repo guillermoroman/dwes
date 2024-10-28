@@ -37,7 +37,6 @@ Atributos:
 Métodos:
 - `abonarCurso`
 - `matricularseEnAsignatura`. No dejar que el alumno se matricule dos veces de una asignatura.
-- `bajaEnAsignatura`. Da al alumno de baja en la asignatura.
 - `crearAlumnosDeMuestra()` - Método estático que generará una colección de alumnos.
 
 ### `Profesor`
