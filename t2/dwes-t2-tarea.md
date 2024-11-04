@@ -80,7 +80,9 @@ Nota: Si se le pasa un número negativo, devolverá una cadena vacía.
 - *Asignaturas* - Listado de todas las asignaturas. (**1p**)
 - *Alumnos <= 23* - Listado de alumnos menores de 23 años (**1p**)
 - *Alumnos con al menos dos asignaturas* - Listado de alumnos con al menos dos asignaturas matriculadas. (**1p**)
+
 Utiliza la función `array_filter` para filtrar los arrays anteriores en lugar de utilizar un condicional (**1p**)
+
 - *Asignaturas con algún alumno matriculado* - Listado de asignaturas con al menos un alumno matriculado en las mismas. No utilizar `array_filter`.(**1p**)
 
 
