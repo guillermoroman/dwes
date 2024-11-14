@@ -147,11 +147,11 @@ web:
   networks:
     - backend_network
 ```
-	•	build: ./docker/apache: Indica que el contenedor web se construirá usando el Dockerfile ubicado en la carpeta ./docker/apache.
-	•	ports: Mapea el puerto 80 dentro del contenedor al puerto 8080 en la máquina host. Esto permite acceder a la aplicación en http://localhost:8080.
-	•	volumes: Monta la carpeta local ./src en el directorio /var/www/html del contenedor. Esto permite que el código fuente esté accesible y cualquier cambio en ./src se refleje en tiempo real dentro del contenedor.
-	•	depends_on: Indica que el servicio web depende de db (MySQL). Esto garantiza que el contenedor de la base de datos se inicie antes que el contenedor web.
-	•	networks: Conecta el servicio web a la red backend_network, permitiendo la comunicación entre los contenedores en esta red.
+- `build: ./docker/apache:` Indica que el contenedor web se construirá usando el Dockerfile ubicado en la carpeta ./docker/apache.
+- `ports:` Mapea el puerto 80 dentro del contenedor al puerto 8080 en la máquina host. Esto permite acceder a la aplicación en http://localhost:8080.
+- `volumes:` Monta la carpeta local ./src en el directorio /var/www/html del contenedor. Esto permite que el código fuente esté accesible y cualquier cambio en ./src se refleje en tiempo real dentro del contenedor.
+- `depends_on:` Indica que el servicio web depende de db (MySQL). Esto garantiza que el contenedor de la base de datos se inicie antes que el contenedor web.
+- `networks:` Conecta el servicio web a la red backend_network, permitiendo la comunicación entre los contenedores en esta red.
 
 Servicio db
 ```yml
@@ -169,14 +169,14 @@ db:
   networks:
     - backend_network
 ```
-	•	image: mysql:8.0: Usa la imagen oficial de MySQL en la versión 8.0 para crear el contenedor db.
-	•	environment: Define variables de entorno para configurar MySQL:
-	•	MYSQL_ROOT_PASSWORD: Contraseña para el usuario root de MySQL.
-	•	MYSQL_DATABASE: Nombre de la base de datos a crear al iniciar el contenedor.
-	•	MYSQL_USER y MYSQL_PASSWORD: Usuario y contraseña adicionales para acceder a la base de datos.
-	•	volumes: Monta la carpeta ./mysql_data en el contenedor en /var/lib/mysql, donde MySQL guarda sus datos. Esto asegura que los datos persistan incluso si el contenedor se detiene.
-	•	ports: Mapea el puerto 3306 (puerto de MySQL) del contenedor al puerto 3306 del host, permitiendo que MySQL esté accesible desde fuera del contenedor.
-	•	networks: Conecta el servicio a la red backend_network.
+- `image: mysql:8.0:` Usa la imagen oficial de MySQL en la versión 8.0 para crear el contenedor db.
+- `environment:` Define variables de entorno para configurar MySQL:
+- `MYSQL_ROOT_PASSWORD:` Contraseña para el usuario root de MySQL.
+- `MYSQL_DATABASE:` Nombre de la base de datos a crear al iniciar el contenedor.
+- `MYSQL_USER y MYSQL_PASSWORD:` Usuario y contraseña adicionales para acceder a la base de datos.
+- `volumes:` Monta la carpeta ./mysql_data en el contenedor en /var/lib/mysql, donde MySQL guarda sus datos. Esto asegura que los datos persistan incluso si el contenedor se detiene.
+- ports:` Mapea el puerto 3306 (puerto de MySQL) del contenedor al puerto 3306 del host, permitiendo que MySQL esté accesible desde fuera del contenedor.
+- `networks:` Conecta el servicio a la red backend_network.
 
 Servicio phpmyadmin
 ```yml
@@ -192,13 +192,13 @@ phpmyadmin:
   networks:
     - backend_network
 ```
-	•	image: phpmyadmin/phpmyadmin: Usa la imagen oficial de phpMyAdmin para crear el contenedor phpmyadmin.
-	•	environment: Configura phpMyAdmin para que se conecte a la base de datos:
-	•	PMA_HOST: Especifica el nombre del host de MySQL (db), que phpMyAdmin usará para conectarse al servicio de MySQL.
-	•	MYSQL_ROOT_PASSWORD: Contraseña del usuario root de MySQL (debe coincidir con la contraseña configurada en el servicio db).
-	•	ports: Mapea el puerto 80 del contenedor phpMyAdmin al puerto 8081 en el host. Esto permite acceder a phpMyAdmin en http://localhost:8081.
-	•	depends_on: Indica que phpMyAdmin depende de que el contenedor db esté en funcionamiento.
-	•	networks: Conecta phpMyAdmin a la red backend_network, permitiendo que se comunique con el servicio de MySQL.
+- `image: phpmyadmin/phpmyadmin:` Usa la imagen oficial de phpMyAdmin para crear el contenedor phpmyadmin.
+- `environment:` Configura phpMyAdmin para que se conecte a la base de datos:
+- `PMA_HOST:` Especifica el nombre del host de MySQL (db), que phpMyAdmin usará para conectarse al servicio de MySQL.
+- `MYSQL_ROOT_PASSWORD:` Contraseña del usuario root de MySQL (debe coincidir con la contraseña configurada en el servicio db).
+- `ports:` Mapea el puerto 80 del contenedor phpMyAdmin al puerto 8081 en el host. Esto permite acceder a phpMyAdmin en http://localhost:8081.
+- `depends_on:` Indica que phpMyAdmin depende de que el contenedor db esté en funcionamiento.
+- `networks:` Conecta phpMyAdmin a la red backend_network, permitiendo que se comunique con el servicio de MySQL.
 
 2. networks
 ```yml
