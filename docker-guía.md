@@ -206,7 +206,7 @@ networks:
   backend_network:
     driver: bridge
 ```
-	•	Esta sección define la red backend_network que conecta los servicios web, db y phpmyadmin. El tipo de red bridge permite que los contenedores se comuniquen entre sí de forma aislada del resto de la red del host.
+- Esta sección define la red backend_network que conecta los servicios web, db y phpmyadmin. El tipo de red bridge permite que los contenedores se comuniquen entre sí de forma aislada del resto de la red del host.
 
 Resumen
 
