@@ -16,7 +16,7 @@ El objetivo es configurar dos contenedores: uno para **PHP y Apache**, y otro pa
 
 #### 1. Crear la estructura del proyecto
 
-Primero, crea una carpeta para nuestro proyecto, que contendrá los archivos necesarios para configurar Docker y nuestro código PHP.
+Primero, crea una carpeta para nuestro proyecto, que contendrá los archivos necesarios para configurar Docker y nuestro código PHP. Si lo quieres hacer desde la consola, puedes ejecutar:
 
 ```bash
 mkdir nombre-proyecto
@@ -50,52 +50,76 @@ FROM php:8.1-apache
 # Habilitamos el módulo de reescritura de Apache (útil para Laravel)
 RUN a2enmod rewrite
 
+# Instalamos la extensión pdo_mysql para la conexión a MySQL
+RUN docker-php-ext-install pdo_mysql
+
 # Configuración de puertos
 EXPOSE 80
 
 # Copiamos el código fuente de PHP a la carpeta donde Apache espera servir archivos
-COPY ../../src/ /var/www/html/
+# COPY ./src /var/www/html/
 
 # Configuración de permisos adecuados
 RUN chown -R www-data:www-data /var/www/html
 ```
+Explicación:
+1. `FROM php:8.1-apache` Este comando establece la imagen base para el contenedor. En este caso, usa la imagen oficial de PHP en la versión 8.1, que ya incluye Apache preinstalado. Esta imagen proporciona un entorno con Apache y PHP 8.1 listo para ejecutar aplicaciones web en PHP.
+
+2. `RUN a2enmod rewrite` a2enmod es un comando de Apache utilizado para habilitar módulos. Este comando activa el módulo de reescritura (rewrite) de Apache, que permite manejar URL amigables y redirecciones en aplicaciones web. Es especialmente útil en frameworks como Laravel o en sistemas que utilizan .htaccess para definir reglas de reescritura.
+
+3. `RUN docker-php-ext-install pdo_mysql` Este comando instala la extensión pdo_mysql para PHP, que es necesaria para conectar PHP a bases de datos MySQL usando PDO (PHP Data Objects). Sin esta extensión, PHP no podría conectarse a una base de datos MySQL en el entorno Docker.
+
+4. `EXPOSE 80` EXPOSE declara que el contenedor está configurado para escuchar en el puerto 80 (el puerto predeterminado de HTTP), que es el puerto donde Apache servirá la aplicación web. Este puerto estará disponible para que Docker pueda conectarlo con puertos externos cuando el contenedor se ejecute.
+
+5. `# COPY ./src /var/www/html/` Esta línea está comentada, pero normalmente se utilizaría para copiar el código fuente desde una carpeta en tu sistema (por ejemplo, ./src) a la carpeta /var/www/html/ dentro del contenedor, que es donde Apache busca los archivos para servir. Al copiar los archivos aquí, Apache puede servir tu aplicación PHP.
+
+6. `RUN chown -R www-data:www-data /var/www/html` chown cambia el propietario y el grupo de los archivos en /var/www/html/ a www-data, el usuario y grupo que Apache usa para servir archivos. La opción -R hace que el cambio sea recursivo, asegurando que todos los archivos y carpetas dentro de /var/www/html/ sean propiedad de www-data. Esto ayuda a evitar problemas de permisos cuando Apache intenta acceder a los archivos de la aplicación web.
+
 
 #### 3. Configurar Docker Compose
 
 En la raíz del proyecto (dentro de `nombre-proyecto/`), crea un archivo llamado `docker-compose.yml`. Este archivo nos permitirá gestionar múltiples contenedores fácilmente, como los de PHP/Apache y MySQL.
 
 ```yaml
-version: '3.8'
 
 services:
-  # Contenedor para PHP y Apache
   web:
     build: ./docker/apache
     ports:
       - "8080:80"
     volumes:
-      - ./src:/var/www/html
+      - ./src:/var/www/html   # Monta src en lugar de copiar
     depends_on:
       - db
     networks:
       - backend_network
 
-  # Contenedor para MySQL
   db:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: nombre-base-datos
+      MYSQL_DATABASE: dwes_t3_rpg_clase
       MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_PASSWORD: userpassword
     volumes:
       - ./mysql_data:/var/lib/mysql
     ports:
       - "3306:3306"
     networks:
       - backend_network
-
-# Red para comunicar los contenedores
+      
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: db  # Nombre del servicio de MySQL
+      MYSQL_ROOT_PASSWORD: rootpassword  # Debe coincidir con la contraseña de root de MySQL
+    ports:
+      - "8081:80"  # Exponer phpMyAdmin en el puerto 8081
+    depends_on:
+      - db
+    networks:
+      - backend_network
+      
 networks:
   backend_network:
     driver: bridge
