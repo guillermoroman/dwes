@@ -19,8 +19,8 @@ El objetivo es configurar dos contenedores: uno para **PHP y Apache**, y otro pa
 Primero, crea una carpeta para nuestro proyecto, que contendrá los archivos necesarios para configurar Docker y nuestro código PHP.
 
 ```bash
-mkdir curso-php-docker
-cd curso-php-docker
+mkdir nombre-proyecto
+cd nombre-proyecto
 ```
 
 Dentro de esta carpeta, crea las siguientes subcarpetas:
@@ -32,7 +32,7 @@ Dentro de esta carpeta, crea las siguientes subcarpetas:
 La estructura del proyecto debería verse así:
 
 ```
-curso-php-docker/
+nombre-proyecto/
 ├── docker/
 │   └── apache/
 ├── mysql_data/
@@ -62,7 +62,7 @@ RUN chown -R www-data:www-data /var/www/html
 
 #### 3. Configurar Docker Compose
 
-En la raíz del proyecto (dentro de `curso-php-docker/`), crea un archivo llamado `docker-compose.yml`. Este archivo nos permitirá gestionar múltiples contenedores fácilmente, como los de PHP/Apache y MySQL.
+En la raíz del proyecto (dentro de `nombre-proyecto/`), crea un archivo llamado `docker-compose.yml`. Este archivo nos permitirá gestionar múltiples contenedores fácilmente, como los de PHP/Apache y MySQL.
 
 ```yaml
 version: '3.8'
@@ -85,7 +85,7 @@ services:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: curso_db
+      MYSQL_DATABASE: nombre-base-datos
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     volumes:
@@ -102,7 +102,7 @@ networks:
 ```
 
 - **web**: Este servicio crea el contenedor que ejecuta Apache y PHP, y mapea el puerto `8080` de tu máquina al puerto `80` del contenedor.
-- **db**: Este servicio crea el contenedor de MySQL, configurado con una base de datos llamada `curso_db`, y hace persistente la información en la carpeta `mysql_data` de tu sistema.
+- **db**: Este servicio crea el contenedor de MySQL, configurado con una base de datos llamada `nombre-base-datos`, y hace persistente la información en la carpeta `mysql_data` de tu sistema.
 - **volumes**: Permite que los datos de MySQL y los archivos PHP sean accesibles desde tu sistema de archivos local.
 - **networks**: Crea una red para que los contenedores puedan comunicarse entre sí.
 
@@ -115,7 +115,7 @@ Dentro de la carpeta `src/`, crea un archivo `index.php` con un código PHP bás
 $servername = "db"; // Nombre del servicio MySQL definido en docker-compose
 $username = "user";
 $password = "password";
-$database = "curso_db";
+$database = "nombre-base-datos";
 
 // Crear conexión a la base de datos
 $conn = new mysqli($servername, $username, $password, $database);
