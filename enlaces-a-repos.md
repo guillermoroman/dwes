@@ -11,3 +11,6 @@ Ejercicio colaborativo para buscar información sobre distintos lenguajes para u
 
 ### [Funciones y filtros](https://github.com/guillermoroman/dwes-t2-functions-and-filters-demo)
 Viaje desde una función filtro sencilla, hasta el uso de `array_filter`.
+
+## Tema 4
+### [Ejercicios tema 4](https://github.com/guillermoroman/dwes-t4-enunciados)
