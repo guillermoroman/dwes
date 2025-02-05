@@ -67,3 +67,10 @@ php artisan migrate:fresh --seed
 ```
 php artisan migrate:fresh --seed --seeder=UserSeeder
 ```
+
+## Rutas como recurso
+```
+Route::resource('users', 'UsersController');
+```
+
+
